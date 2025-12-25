@@ -1,0 +1,210 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "AIMBOT PRO v6.2",
+      "description": "Advanced AI-powered aimbot with machine learning adaptation.",
+      "category": "aim",
+      "price": 89.99,
+      "discount": 15,
+      "features": [
+        "AI Target Prediction",
+        "Bone Selection",
+        "Humanizer",
+        "FOV Control",
+        "Triggerbot",
+        "Recoil Control",
+        "Auto-Wall",
+        "Performance Mode"
+      ],
+      "compatible": ["CS2", "Valorant", "Apex", "Fortnite", "Warzone"],
+      "icon": "fa-crosshairs",
+      "badge": "MOST POPULAR",
+      "stock": 999,
+      "requires_hwid": true,
+      "updates": "Daily"
+    },
+    {
+      "id": 2,
+      "name": "WALLHACK ULTIMATE",
+      "description": "Comprehensive ESP system with advanced visualization.",
+      "category": "esp",
+      "price": 74.99,
+      "discount": 10,
+      "features": [
+        "ESP Boxes & Skeletons",
+        "Health & Armor Bars",
+        "Distance Display",
+        "Item ESP",
+        "Radar Integration",
+        "Custom Colors",
+        "Visibility Check",
+        "Snapshot History"
+      ],
+      "compatible": ["All FPS Games"],
+      "icon": "fa-eye",
+      "badge": "NEW",
+      "stock": 999,
+      "requires_hwid": false,
+      "updates": "Weekly"
+    },
+    {
+      "id": 3,
+      "name": "SPEED HACK PRO",
+      "description": "Increase movement speed with intelligent anti-detection.",
+      "category": "movement",
+      "price": 59.99,
+      "discount": 0,
+      "features": [
+        "Speed Control",
+        "Anti-Ban System",
+        "Auto-Stop",
+        "Smooth Acceleration",
+        "Hotkey Setup",
+        "Preset Profiles",
+        "Game Detection",
+        "Safe Mode"
+      ],
+      "compatible": ["CS2", "Valorant", "Apex", "Fortnite"],
+      "icon": "fa-tachometer-alt",
+      "badge": "",
+      "stock": 500,
+      "requires_hwid": true,
+      "updates": "Weekly"
+    },
+    {
+      "id": 4,
+      "name": "GARENA PANEL VIP",
+      "description": "Advanced control panel for game management.",
+      "category": "panel",
+      "price": 149.99,
+      "discount": 20,
+      "features": [
+        "Cheat Management",
+        "Settings Control",
+        "Auto-Updates",
+        "Russian Interface",
+        "24/7 Support",
+        "Multi-Language",
+        "Profile System",
+        "Backup/Restore"
+      ],
+      "compatible": ["Garena Games", "Standalone Clients"],
+      "icon": "fa-sliders-h",
+      "badge": "VIP",
+      "stock": 250,
+      "requires_hwid": true,
+      "updates": "Daily"
+    },
+    {
+      "id": 5,
+      "name": "MACRO PACK",
+      "description": "Advanced macros for game automation.",
+      "category": "macro",
+      "price": 29.99,
+      "discount": 5,
+      "features": [
+        "Auto-Fire",
+        "Complex Combos",
+        "Delay Settings",
+        "Profile System",
+        "Hotkeys",
+        "Loop Functions",
+        "Randomization",
+        "Export/Import"
+      ],
+      "compatible": ["All Games"],
+      "icon": "fa-keyboard",
+      "badge": "",
+      "stock": 1000,
+      "requires_hwid": false,
+      "updates": "Monthly"
+    },
+    {
+      "id": 6,
+      "name": "ANTI-BAN SYSTEM",
+      "description": "Complete protection against bans.",
+      "category": "security",
+      "price": 99.99,
+      "discount": 0,
+      "features": [
+        "Traffic Masking",
+        "Random Delays",
+        "Auto-Disconnect",
+        "Anti-Cheat Bypass",
+        "HWID Protection",
+        "VPN Integration",
+        "Risk Detection",
+        "Emergency Stop"
+      ],
+      "compatible": ["All Games"],
+      "icon": "fa-shield-alt",
+      "badge": "SECURE",
+      "stock": 999,
+      "requires_hwid": true,
+      "updates": "Daily"
+    },
+    {
+      "id": 7,
+      "name": "TRIGGERBOT PRO",
+      "description": "Automatic shooting when crosshair is on target.",
+      "category": "aim",
+      "price": 44.99,
+      "discount": 10,
+      "features": [
+        "Auto-Trigger",
+        "Reaction Time",
+        "Target Detection",
+        "Randomization",
+        "Key Binding",
+        "Toggle Modes",
+        "Sound Alert",
+        "Performance"
+      ],
+      "compatible": ["CS2", "Valorant", "Apex"],
+      "icon": "fa-bullseye",
+      "badge": "",
+      "stock": 750,
+      "requires_hwid": false,
+      "updates": "Weekly"
+    },
+    {
+      "id": 8,
+      "name": "BUNNY HOP SCRIPT",
+      "description": "Perfect bunny hopping for movement games.",
+      "category": "movement",
+      "price": 19.99,
+      "discount": 0,
+      "features": [
+        "Auto-Strafe",
+        "Perfect Timing",
+        "Velocity Control",
+        "Game Detection",
+        "Custom Bindings",
+        "Practice Mode",
+        "Stats Display",
+        "Easy Setup"
+      ],
+      "compatible": ["CS2", "CS:GO", "TF2"],
+      "icon": "fa-rabbit",
+      "badge": "CHEAP",
+      "stock": 2000,
+      "requires_hwid": false,
+      "updates": "Rarely"
+    }
+  ],
+  "categories": [
+    {"id": "aim", "name": "Aimbot", "icon": "fa-crosshairs"},
+    {"id": "esp", "name": "ESP/Wallhack", "icon": "fa-eye"},
+    {"id": "movement", "name": "Movement", "icon": "fa-running"},
+    {"id": "panel", "name": "Panels", "icon": "fa-sliders-h"},
+    {"id": "macro", "name": "Macros", "icon": "fa-keyboard"},
+    {"id": "security", "name": "Security", "icon": "fa-shield-alt"}
+  ],
+  "metadata": {
+    "last_updated": "2024-01-15",
+    "version": "2.1.0",
+    "total_products": 8,
+    "currency": "USD"
+  }
+}
