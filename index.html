@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHETARMY PRO | Private Cheats & Panels</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="cyber-bg">
+        <div class="cyber-grid"></div>
+        <div class="floating-orbs">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="orb orb-3"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="main-header" id="mainHeader">
+        <div class="logo-container">
+            <div class="logo-icon">
+                <i class="fas fa-skull-crossbones"></i>
+            </div>
+            <div class="logo-text">
+                <span class="logo-main">CHETARMY</span>
+                <span class="logo-pro">PRO</span>
+            </div>
+        </div>
+
+        <nav class="main-nav" id="mainNav">
+            <a href="#home" class="nav-link active"><i class="fas fa-home"></i> Home</a>
+            <a href="#products" class="nav-link"><i class="fas fa-gamepad"></i> Products</a>
+            <a href="#features" class="nav-link"><i class="fas fa-star"></i> Features</a>
+            <a href="#support" class="nav-link"><i class="fas fa-headset"></i> Support</a>
+            <a href="#testimonials" class="nav-link"><i class="fas fa-comment"></i> Reviews</a>
+            <a href="#admin" class="nav-link admin-link hidden"><i class="fas fa-crown"></i> Admin</a>
+        </nav>
+
+        <div class="header-controls">
+            <button class="color-picker-btn" id="colorPickerBtn" title="Change Theme">
+                <i class="fas fa-palette"></i>
+            </button>
+            
+            <button class="cart-btn" id="cartBtn">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count" id="cartCount">0</span>
+            </button>
+            
+            <div class="user-dropdown" id="userDropdown">
+                <button class="user-btn" id="userBtn">
+                    <i class="fas fa-user"></i>
+                </button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item" id="loginBtn"><i class="fas fa-sign-in-alt"></i> Login</a>
+                    <a href="#" class="dropdown-item" id="registerBtn"><i class="fas fa-user-plus"></i> Register</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item" id="profileBtn"><i class="fas fa-id-card"></i> Profile</a>
+                    <a href="#" class="dropdown-item" id="ordersBtn"><i class="fas fa-history"></i> Orders</a>
+                    <a href="#" class="dropdown-item" id="logoutBtn"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                </div>
+            </div>
+
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="hero-container">
+            <div class="hero-badge">
+                <span class="badge-text">UNDETECTED SINCE 2022</span>
+                <span class="badge-icon"><i class="fas fa-shield-alt"></i></span>
+            </div>
+
+            <h1 class="hero-title">
+                <span class="title-line">PREMIUM CHEATING</span>
+                <span class="title-line gradient-text">SOLUTIONS</span>
+                <span class="title-line">FOR PRO PLAYERS</span>
+            </h1>
+
+            <p class="hero-subtitle">
+                Experience the power of AI-enhanced cheating tools with military-grade encryption, 
+                zero detection rate, and 24/7 premium support. Join 50,000+ satisfied users.
+            </p>
+
+            <div class="hero-actions">
+                <button class="btn btn-primary btn-large" id="exploreProductsBtn">
+                    <i class="fas fa-rocket"></i> Explore Products
+                </button>
+                <button class="btn btn-secondary btn-large" id="watchDemoBtn">
+                    <i class="fas fa-play-circle"></i> Watch Demo
+                </button>
+                <button class="btn btn-outline btn-large" id="learnMoreBtn">
+                    <i class="fas fa-book"></i> Learn More
+                </button>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="50847">0</div>
+                    <div class="stat-label">Active Users</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="99">0</div>
+                    <div class="stat-label">Uptime %</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="24">0</div>
+                    <div class="stat-label">Products</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="365">0</div>
+                    <div class="stat-label">Days Undetected</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-scroll">
+            <div class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="section products-section" id="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">PREMIUM PRODUCTS</h2>
+                <p class="section-subtitle">
+                    Choose from our selection of AI-powered cheating solutions
+                </p>
+                <div class="section-controls">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="aim">Aimbot</button>
+                    <button class="filter-btn" data-filter="esp">ESP</button>
+                    <button class="filter-btn" data-filter="macro">Macro</button>
+                    <button class="filter-btn" data-filter="panel">Panel</button>
+                </div>
+            </div>
+
+            <div class="products-grid" id="productsGrid">
+                <!-- Products loaded via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section features-section" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">WHY CHOOSE US</h2>
+                <p class="section-subtitle">
+                    Industry-leading features for maximum performance
+                </p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Undetectable</h3>
+                    <p class="feature-desc">
+                        Advanced kernel-level protection with AI behavior analysis to avoid detection.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="feature-title">High Performance</h3>
+                    <p class="feature-desc">
+                        Optimized to use less than 1% CPU, zero lag, and maximum FPS preservation.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Auto Updates</h3>
+                    <p class="feature-desc">
+                        Automatic daily updates to stay ahead of anti-cheat systems.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3 class="feature-title">24/7 Support</h3>
+                    <p class="feature-desc">
+                        Premium support via Telegram, Discord, and ticket system with 5 min response.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="feature-title">Customizable</h3>
+                    <p class="feature-desc">
+                        Full Lua scripting support, custom configs, and personal adjustments.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="feature-title">Worldwide</h3>
+                    <p class="feature-desc">
+                        Servers in 15 countries, supporting 12 languages with local payment methods.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Section -->
+    <section class="section payment-section" id="payment">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">SECURE PAYMENT</h2>
+                <p class="section-subtitle">
+                    Multiple payment methods with instant delivery
+                </p>
+            </div>
+
+            <div class="payment-container">
+                <div class="payment-methods">
+                    <div class="method-card active">
+                        <i class="fab fa-paypal"></i>
+                        <span>PayPal</span>
+                    </div>
+                    <div class="method-card">
+                        <i class="fas fa-credit-card"></i>
+                        <span>Credit Card</span>
+                    </div>
+                    <div class="method-card">
+                        <i class="fab fa-bitcoin"></i>
+                        <span>Crypto</span>
+                    </div>
+                    <div class="method-card">
+                        <i class="fas fa-gift"></i>
+                        <span>Gift Card</span>
+                    </div>
+                </div>
+
+                <div class="payment-info">
+                    <h3>How to Purchase</h3>
+                    <ol class="steps-list">
+                        <li>Select your product and add to cart</li>
+                        <li>Proceed to checkout and choose payment method</li>
+                        <li>Complete payment securely</li>
+                        <li>Receive license instantly via email & Telegram</li>
+                        <li>Download loader and activate</li>
+                        <li>Enjoy premium features</li>
+                    </ol>
+
+                    <div class="guarantee">
+                        <i class="fas fa-check-circle"></i>
+                        <span>30-Day Money Back Guarantee</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section class="section support-section" id="support">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">24/7 SUPPORT</h2>
+                <p class="section-subtitle">
+                    We're here to help you 24 hours a day, 7 days a week
+                </p>
+            </div>
+
+            <div class="support-grid">
+                <a href="https://t.me/chetarmy_support" class="support-card telegram" target="_blank">
+                    <div class="support-icon">
+                        <i class="fab fa-telegram"></i>
+                    </div>
+                    <h3>Telegram</h3>
+                    <p>Instant support in our Telegram group</p>
+                    <span class="support-status online">Online Now</span>
+                </a>
+
+                <a href="https://discord.gg/chetarmy" class="support-card discord" target="_blank">
+                    <div class="support-icon">
+                        <i class="fab fa-discord"></i>
+                    </div>
+                    <h3>Discord</h3>
+                    <p>Join our community for help & updates</p>
+                    <span class="support-status online">2.5k Online</span>
+                </a>
+
+                <a href="mailto:support@chetarmy.pro" class="support-card email">
+                    <div class="support-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>Get detailed support via email</p>
+                    <span class="support-status">24h Response</span>
+                </a>
+
+                <a href="#" class="support-card ticket" id="ticketBtn">
+                    <div class="support-icon">
+                        <i class="fas fa-ticket-alt"></i>
+                    </div>
+                    <h3>Ticket System</h3>
+                    <p>Create a support ticket</p>
+                    <span class="support-status">Priority Support</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <i class="fas fa-skull-crossbones"></i>
+                        <span>CHETARMY</span>
+                        <span class="pro">PRO</span>
+                    </div>
+                    <p class="footer-desc">
+                        Premium cheating solutions since 2022. 
+                        We provide the most advanced and undetectable tools for competitive gaming.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-title">Products</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Aimbot</a></li>
+                        <li><a href="#">ESP/Wallhack</a></li>
+                        <li><a href="#">Macros</a></li>
+                        <li><a href="#">Panels</a></li>
+                        <li><a href="#">Spoofers</a></li>
+                        <li><a href="#">Bundles</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-title">Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Setup Guide</a></li>
+                        <li><a href="#">Troubleshooting</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Status</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-title">Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">Acceptable Use</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">DMCA</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-title">Newsletter</h3>
+                    <p class="footer-desc">
+                        Subscribe for updates, new products, and special offers.
+                    </p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="copyright">
+                    &copy; 2024 CHETARMY PRO. All rights reserved.
+                </div>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-paypal" title="PayPal"></i>
+                    <i class="fab fa-cc-visa" title="Visa"></i>
+                    <i class="fab fa-cc-mastercard" title="Mastercard"></i>
+                    <i class="fab fa-cc-amex" title="American Express"></i>
+                    <i class="fab fa-bitcoin" title="Bitcoin"></i>
+                    <i class="fab fa-ethereum" title="Ethereum"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <div class="modal-overlay" id="loginModal">
+        <div class="modal">
+            <button class="modal-close" id="closeLoginModal">&times;</button>
+            <div class="modal-header">
+                <h2>Login to Account</h2>
+            </div>
+            <div class="modal-body">
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label>Email or Username</label>
+                        <input type="text" id="loginEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" id="loginPassword" required>
+                    </div>
+                    <div class="form-options">
+                        <label>
+                            <input type="checkbox"> Remember me
+                        </label>
+                        <a href="#" id="forgotPassword">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Login</button>
+                </form>
+                <div class="form-footer">
+                    <p>Don't have an account? <a href="#" id="showRegister">Register</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="registerModal">
+        <div class="modal">
+            <button class="modal-close" id="closeRegisterModal">&times;</button>
+            <div class="modal-header">
+                <h2>Create Account</h2>
+            </div>
+            <div class="modal-body">
+                <form id="registerForm">
+                    <div class="form-group">
+                        <label>Username</label>
+                        <input type="text" id="registerUsername" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" id="registerEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" id="registerPassword" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Confirm Password</label>
+                        <input type="password" id="registerConfirmPassword" required>
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" required> I agree to Terms & Privacy
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Create Account</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="colorPickerModal">
+        <div class="modal modal-large">
+            <button class="modal-close" id="closeColorPickerModal">&times;</button>
+            <div class="modal-header">
+                <h2>Customize Theme</h2>
+            </div>
+            <div class="modal-body">
+                <div class="color-picker" id="colorPicker"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="adminModal">
+        <div class="modal modal-xlarge">
+            <button class="modal-close" id="closeAdminModal">&times;</button>
+            <div class="modal-header">
+                <h2>Admin Panel</h2>
+            </div>
+            <div class="modal-body">
+                <div class="admin-panel" id="adminPanelContent"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Shopping Cart</h3>
+            <button class="cart-close" id="closeCart">&times;</button>
+        </div>
+        <div class="cart-body" id="cartBody"></div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cartTotal">$0.00</span>
+            </div>
+            <button class="btn btn-primary btn-block" id="checkoutBtn">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <!-- Firebase SDKs (ADD THESE FIRST) -->
+
+    
+    <!-- PayPal SDK -->
+    <script src="https://www.paypal.com/sdk/js?client-id=AVvIh5ifgDhZ28RQDzdP2dn_sKC4KaNDF7TWrlyjLFDHMUGZXsKXu5cSJrU9FdT9_Non1fYxsUlKYlFr&currency=USD"></script>
+    
+    <!-- Project Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/firebase-auth.js"></script>  <!-- YOUR NEW FIREBASE FILE -->
+    <script src="js/core.js"></script>
+    <script src="js/color-picker.js"></script>
+    <script src="js/payment.js"></script>
+    <script src="js/admin.js"></script>
+    
+    <!-- Initialize -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof APP !== 'undefined') {
+                APP.init();
+            }
+        });
+    </script>
+</body>
+</html>
