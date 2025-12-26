@@ -1,3 +1,4 @@
+
 // CHETARMY PRO - Core Application
 // Main application logic and state management
 
@@ -940,3 +941,25 @@ if (typeof module !== 'undefined' && module.exports) {
 } else {
     window.APP = APP;
 }
+
+// DEBUG: Force bind events on page load
+setTimeout(() => {
+  console.log('DEBUG: Checking form bindings...');
+  
+  const loginForm = document.getElementById('loginForm');
+  const registerForm = document.getElementById('registerForm');
+  
+  if (loginForm) {
+    console.log('✓ Login form found');
+    loginForm.onsubmit = (e) => APP.handleLogin(e);
+  } else {
+    console.log('✗ Login form NOT found');
+  }
+  
+  if (registerForm) {
+    console.log('✓ Register form found');
+    registerForm.onsubmit = (e) => APP.handleRegister(e);
+  } else {
+    console.log('✗ Register form NOT found');
+  }
+}, 1000);
